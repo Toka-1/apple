@@ -1,0 +1,643 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.haederSub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.header__icon {
+  width: 30px;
+}
+.header {
+  width: 100%;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  column-gap: 24px;
+  position: fixed;
+  background-color: white;
+  z-index: 5;
+}
+.header_link {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 24px;
+}
+
+.sidebarIcon {
+  display: none;
+}
+
+.header_icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.headerText {
+  display: flex;
+  gap: 20px;
+}
+.headercenter {
+  width: 100%;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+  padding: 41px;
+  position: relative;
+  top: 20px;
+}
+.hero__container {
+  width: 100vw;
+  height: 692px;
+  text-align: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  background-size: cover;
+  padding-block: 55px 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  vertical-align: middle;
+  color: #f5f5f7;
+}
+.hero-title2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #f5f5f7;
+}
+.hero-bottons {
+  height: 44;
+  opacity: 1;
+  gap: 16px;
+}
+.pirmary {
+  opacity: 1;
+  padding: 12px 20px 12px 20px;
+  gap: 10px;
+  border-radius: 999px;
+  background-color: #0071e3;
+}
+.secondary {
+  opacity: 1;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  gap: 10px;
+  border-radius: 999px;
+  color: #2997ff;
+  border: 1px solid #2997ff;
+}
+
+.hero__container--iphone-16-pro {
+  background-image: url("/Figure.png");
+  max-width: 1920px;
+  width: 100%;
+  height: 692px;
+  display: flex;
+  gap: 13px;
+}
+
+.hero__container--iphone-16 {
+  background-image: url("/figure2.png");
+  max-width: 1929px;
+  width: 100%;
+  height: 692px;
+  display: flex;
+  gap: 13px;
+}
+
+.hero__container--gift-magic {
+  justify-content: flex-end;
+  background-image: url(/figure3.png);
+  max-width: 1920px;
+  width: 100%;
+  height: 692px;
+  display: flex;
+  padding-bottom: 82px;
+  gap: 13px;
+}
+.Titles {
+  display: flex;
+  gap: 4px;
+  width: 26px;
+  height: 32px;
+  justify-content: center;
+}
+.hero-title3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  vertical-align: middle;
+  color: #000000;
+}
+.hero-title6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+.product-container {
+  gap: 12px;
+  display: grid;
+  margin-bottom: 12px;
+  grid-auto-rows: 580px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.box2Top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 300px;
+}
+.box01Top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.sixImg {
+  background-size: cover;
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.box {
+  background-size: cover;
+  width: 48%;
+  height: 580px;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+.box1 {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+  background-size: cover;
+  width: 49%;
+  height: 580px;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.box2 {
+  background-size: cover;
+  width: 49%;
+  height: 580px;
+  align-items: center;
+  background-position: center;
+  justify-content: flex-start;
+  padding-top: 58px;
+}
+.box1Top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.text-gradient {
+  background-image: linear-gradient(
+    45deg,
+    #0090f7,
+    #ba62fc 33%,
+    #f2416b 67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.product-bottom {
+  justify-content: flex-end;
+}
+
+.product-title {
+  font-size: 36px;
+  color: #f5f5f7;
+  font-weight: 600;
+}
+.ipad-air {
+  background-image: url(Heading\ 3.png);
+  justify-content: center;
+  align-items: center;
+  height: 33;
+  opacity: 1;
+}
+
+.media-carousel {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-slide {
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+  background: var(--background-image) center / cover no-repeat;
+  background-size: cover;
+}
+
+.carousel-info {
+  left: 47px;
+  bottom: 38px;
+  position: absolute;
+}
+
+.carousel-info-button {
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 11px 21px;
+  margin-right: 14px;
+  border-radius: 999px;
+  background-color: #f5f5f7;
+}
+
+/* Bullets Section */
+.bullets {
+  display: flex;
+  margin-top: 14px;
+  justify-content: center;
+}
+
+.bullet {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: opacity ease 250ms;
+}
+
+.bullet:hover {
+  opacity: 1;
+}
+
+/* Slider Section */
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  height: var(--height);
+  padding-top: 12px;
+  --width: 417px;
+  --height: 236px;
+  --quantity: 10;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-width: calc(var(--width) * var(--quantity));
+}
+
+.slider-item {
+  left: 100%;
+  position: absolute;
+  width: var(--width);
+  height: var(--height);
+  transition: filter 0.5s;
+  background-color: var(--bg-color);
+  animation: slider 60s linear infinite;
+  animation-delay: calc((56.5s / var(--quantity)) * (var(--item) - 6.5));
+}
+
+.slider-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  column-gap: 15px;
+  font-weight: bold;
+  position: relative;
+  align-items: center;
+  color: var(--color);
+}
+
+.slider:hover .slider-item {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+
+.slider .slider-item:hover {
+  filter: grayscale(0);
+}
+
+.slider-image-small {
+  width: 196px;
+  height: 196px;
+  overflow: hidden;
+  margin-left: 15px;
+  border-radius: 8px;
+}
+
+.slider-image-full {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-image-full img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider .slider-item:hover {
+  filter: grayscale(0);
+}
+
+.slider-overlay {
+  inset: 0;
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slider-button {
+  opacity: 0;
+  border: none;
+  margin-top: 20px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background-color: white;
+}
+
+.slider-item:hover .slider-overlay {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.slider-item:hover .slider-button {
+  opacity: 1;
+  margin-top: 0;
+  transition: all 0.3s ease;
+}
+
+.slider-caption {
+  left: 15px;
+  bottom: 30px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+
+@keyframes slider {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    justify-content: space-between;
+    display: flex;
+    padding-inline: 24px;
+  }
+  .headerText {
+    display: none;
+  }
+  .sidebarIcon {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .product-container {
+    grid-auto-rows: 490px;
+  }
+  .hero-title {
+    font-size: 24px;
+  }
+  .hero-title6 {
+    font-size: 12px;
+  }
+  .Titles {
+    width: 22px;
+    height: 27px;
+  }
+  .hero-title3 {
+    font-size: 24px;
+  }
+  .sixImg {
+    gap: 12px;
+  }
+  .box01Top {
+    gap: 0;
+  }
+  .product {
+    padding-block: 42px;
+  }
+  .sidebarIcon {
+    display: flex;
+  }
+  .headerText {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+    display: flex;
+    padding-inline: 24px;
+  }
+  .hero__container--iphone-16-pro {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+  }
+
+  .hero__container--iphone-16 {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+  }
+  .box01Top {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .hero__container--gift-magic {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+  }
+
+  .product-title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .product-subhead {
+    font-size: 18px;
+  }
+
+  .carousel-slide {
+    width: 689px;
+    height: 368px;
+  }
+  .box2 {
+    background-size: cover;
+    width: 48%;
+    height: 490px;
+    align-items: center;
+    background-position: center;
+  }
+  .box {
+    background-size: cover;
+    width: 48%;
+    height: 490px;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  }
+}
+@media (max-width: 390px) {
+  /* Hero Section */
+  .hero__container {
+    height: 500px;
+  }
+
+  .hero-title-special {
+    margin-top: 280px;
+  }
+  .headercenter {
+    width: 100%;
+    height: 52px;
+    font-size: 12px;
+    margin: auto;
+    padding: 50px;
+    position: relative;
+    top: 25px;
+  }
+  .hero__container--iphone-16-pro {
+    width: 390px;
+    justify-content: flex-end;
+    background-image: url("/iphone16pro.png");
+  }
+
+  .hero__container--iphone-16 {
+    width: 390px;
+    background-image: url("/iphone16.png");
+  }
+  .sixImg {
+    width: 100%;
+  }
+  .hero-title01 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+  }
+  .hero-title {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .hero-buttons,
+  .product-buttons {
+    column-gap: 12px;
+  }
+
+  .button {
+    padding: 8px 16px;
+  }
+
+  .product-container {
+    grid-template-columns: repeat(1fr);
+  }
+
+  .product {
+    padding-block: 46px;
+  }
+
+  .carousel-slide {
+    width: 390px;
+    height: 495px;
+  }
+  .box {
+    width: 390px;
+  }
+  .box2 {
+    width: 390px;
+  }
+  .hero-title6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+    width: 100%;
+  }
+}
